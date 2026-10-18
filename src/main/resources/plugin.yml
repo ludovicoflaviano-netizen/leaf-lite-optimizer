@@ -1,0 +1,15 @@
+name: LeafLiteOptimizer
+version: 1.0.0
+main: dev.leaflite.LeafLiteOptimizer
+api-version: '1.21'
+author: community
+description: Lightweight server runtime diagnostics for Leaf and Paper.
+commands:
+  leaflite:
+    description: Show lightweight runtime diagnostics.
+    usage: /leaflite [status]
+    permission: leaflite.status
+permissions:
+  leaflite.status:
+    description: Allows viewing Leaf Lite diagnostics.
+    default: op
